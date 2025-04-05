@@ -1,10 +1,6 @@
-2025-04-05 02:06:55,356 [main] INFO : Launching browser
-2025-04-05 02:06:58,765 [main] INFO : Launching test: *** addProductToTheBasket ***
-2025-04-05 02:07:03,821 [main] INFO : Closing browser
-2025-04-05 02:07:40,210 [main] INFO : Launching browser
-2025-04-05 02:07:43,713 [main] INFO : Launching test: *** addProductToTheBasket ***
-2025-04-05 02:07:53,598 [main] INFO : Start payment assertion CHECKED: Expected 19, Found: 19
-2025-04-05 02:07:53,613 [main] INFO : Monthly payment assertion CHECKED: Expected 45, Found: 45
-2025-04-05 02:07:54,820 [main] INFO : Items in basket assertion CHECKED: Expected 1, Found: 1
-2025-04-05 02:07:54,820 [main] INFO : Test PASSED: addProductToTheBasket
-2025-04-05 02:07:54,824 [main] INFO : Closing browser
+2025-04-05 14:41:44,555 [main] INFO : Launching browser
+2025-04-05 14:41:57,105 [main] INFO : Start payment assertion CHECKED: Expected 19, Found: 19
+2025-04-05 14:41:57,131 [main] INFO : Monthly payment assertion CHECKED: Expected 45, Found: 45
+2025-04-05 14:41:57,632 [main] INFO : Items in basket assertion CHECKED: Expected 1, Found: 1
+2025-04-05 14:41:57,632 [main] INFO : Test PASSED: addProductToTheBasket
+2025-04-05 14:41:57,632 [main] INFO : Closing browser

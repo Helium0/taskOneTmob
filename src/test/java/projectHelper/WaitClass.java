@@ -12,16 +12,16 @@ import java.util.List;
 public class WaitClass {
 
 
-    public static WebDriverWait waitForParticularLocator(WebDriver driver) {
+    private static WebDriverWait waitMethod(WebDriver driver) {
         return new WebDriverWait(driver, Duration.ofSeconds(25));
     }
 
     public static WebElement waitForLocator(WebDriver driver, By locator) {
-        return waitForParticularLocator(driver).until(ExpectedConditions.presenceOfElementLocated(locator));
+        return waitMethod(driver).until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 
     public static WebElement waitForElement(WebDriver driver, WebElement element) {
-        return waitForParticularLocator(driver).until(ExpectedConditions.elementToBeClickable(element));
+        return waitMethod(driver).until(ExpectedConditions.elementToBeClickable(element));
     }
 
 
